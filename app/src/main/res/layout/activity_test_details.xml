@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test_details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layout1">
+
+
+
+        <TextView
+
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Test Details"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+            />
+
+        <TextView
+            android:id="@+id/th1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:text="Eco Test"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"></TextView>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layoutM"
+        android:layout_below="@id/layout1">
+
+        <TextView
+            android:id="@+id/th1n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginLeft="20dp"
+            android:text="Due On"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+        <TextView
+            android:id="@+id/Eco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layoutM"
+        android:id="@+id/lC">
+        <TextView
+            android:id="@+id/th2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Carbon Test"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"></TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layoutM2"
+        android:layout_below="@id/lC">
+
+        <TextView
+            android:id="@+id/th2n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginLeft="20dp"
+            android:text="Due On"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+        <TextView
+            android:id="@+id/carbon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="50dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layoutM2"
+        android:id="@+id/lF">
+        <TextView
+            android:id="@+id/th3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Carbon Test"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layoutM3"
+        android:layout_below="@id/lF">
+
+        <TextView
+            android:id="@+id/th3n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginLeft="20dp"
+            android:text="Due On"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+        <TextView
+            android:id="@+id/fitness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/PT"
+        android:layout_below="@id/layoutM3">
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Previous Test Details"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"></TextView>
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_below="@+id/t1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:scrollbars="vertical"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PT"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            android:text="Home Page"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"></Button>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
